@@ -15,6 +15,8 @@ def encode(string):
         elif w == " ":
             encoded_word += " "
         else:
-            encoded_word += w
+            encoded_word += w + " "
 
     return encoded_word
+
+print(encode("jubayer. f[5 s"))
