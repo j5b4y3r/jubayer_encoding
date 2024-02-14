@@ -12,6 +12,8 @@ def encode(string):
             encoded_word += numbers[position - 1] + " "
         elif w in numbers:
             encoded_word += w
+        elif w == " ":
+            encoded_word += " "
         else:
             encoded_word += w
 
