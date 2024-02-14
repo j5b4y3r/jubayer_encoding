@@ -11,6 +11,6 @@ def encode(string):
             position = letters.index(w) + 1
             encoded_word += numbers[position - 1] + " "
         else:
-            encoded_word += w + " "
+            encoded_word += w
 
     return encoded_word
