@@ -18,5 +18,3 @@ def encode(string):
             encoded_word += w + " "
 
     return encoded_word
-
-print(encode("jubayer. f[5 s"))
