@@ -7,7 +7,7 @@ My Package is a Python package that provides functions for encoding and decoding
 You can install My Package using pip:
 
 ```bash
-git clone https://github/j5b4y3r/jubayer_encoding.git
+git clone  https://github.com/j5b4y3r/jubayer_encoding.git
 cd jubayer_encoding
 pip install .
 ```
@@ -17,13 +17,14 @@ pip install .
 import jubayer_encoding
 
 # Example usage:
-encoded_word = "8 5 12 12 15  a b ?"
-decoded = my_package.decode(encoded_word)
-print(decoded)
+string = "hello python!"
+encode = jubayer_encoding.decode(string)
+print(encode)
 ```
  # Functions
 ```bash
-decode(encoded_word)
+print(decode(encode))
+
 Decodes an encoded string.
 
 Parameters:
