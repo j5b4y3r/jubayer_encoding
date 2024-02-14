@@ -1,4 +1,4 @@
-# My Package
+# jubayer_encoding
 
 My Package is a Python package that provides functions for encoding and decoding strings.
 
