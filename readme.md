@@ -7,14 +7,14 @@ My Package is a Python package that provides functions for encoding and decoding
 You can install My Package using pip:
 
 ```bash
-git clone  https://github.com/j5b4y3r/jubayer_encoding.git
-cd jubayer_encoding
+git clone  https://github.com/j5b4y3r/line_encoding.git
+cd line_encoding
 pip install .
 ```
 
 # Usage
 ```bash
-import jubayer_encoding
+import line_encoding
 
 # Example usage:
 string = "hello python!"
